@@ -1,7 +1,8 @@
 body{
      font-size: 50px;
      background-color: black;
-      color: azure;
+     color: azure;
+     font-family: "arvo";   
 }
 button{
         padding: 5px;
@@ -16,7 +17,7 @@ button:hover{
 }
 h1{
     display: inline;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
@@ -35,7 +36,7 @@ textarea {
         background-color: #222;
         color: white;
         font-size: 16px;
-        width: 500px;
+        width: 50%;
         margin: 50px;
         scrollbar-width: none;
 }
