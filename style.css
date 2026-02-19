@@ -1,6 +1,7 @@
 body{
      font-size: 50px;
      background-color: black;
+     
 }
 
 h1{
@@ -12,6 +13,24 @@ h1{
     translate: -50% -50%;
 }
 
+.controls {
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+}
+textarea {
+        padding: 50px;
+        border-radius: 10px;
+        border: 1px solid #333;
+        background-color: #222;
+        color: white;
+        font-size: 16px;
+        width: 500px;
+}
+
 span{
-     color: red; 
+        color: red;
+            
 }
