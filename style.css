@@ -1,12 +1,12 @@
 body{
      font-size: 50px;
      background-color: black;
-     
+      color: azure;
 }
 button{
         padding: 5px;
         border-radius: 5px;
-        border: 1px solid #333;
+        border: 2px solid #d1caca;
         background-color: #222;
         color: #b3b3b3;
 }
@@ -14,16 +14,13 @@ button:hover{
         background-color: #b3b3b3;
         color:#222 ;
 }
-
 h1{
-    color: azure;
     display: inline;
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
 }
-
 .controls {
         z-index: 10;
         display: flex;
@@ -42,8 +39,31 @@ textarea {
         margin: 50px;
         scrollbar-width: none;
 }
-
 span{
         color: red;
             
 }
+#btnhomepage{
+     position: absolute;
+     font-size: 120%;
+     translate: -50%;
+    top: 50%;
+    left: 50%;
+    padding: 2%;
+}
+#speedreader{
+     position: absolute;
+     font-size: 180%;
+    top: 0%;
+    left: 50%;
+}
+p{
+    font-size: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    translate: -50%;
+    text-align: center;
+    width: 50%;
+}
+
