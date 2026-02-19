@@ -3,13 +3,20 @@ const inputArea = document.getElementById("para");
 const btn = document.getElementById("btn");
 btn.addEventListener("click", startReader);
 
-function startReader() {
+async function startReader() {
   let text = inputArea.value;
   if (!text.trim()) {
     alert("Please enter some text first.");
     return;
   }
-  readWords(text);
+  inputArea.hidden=true
+  btn.hidden=true
+
+  await readWords(text);
+
+  inputArea.hidden=false
+  btn.hidden=false
+
 }
 
 function parseWord(word) {
