@@ -1,17 +1,17 @@
- body{
-            font-size: 50px;
-            background-color: black;
-        }
-        h1{
-            color: azure;
-            display: inline;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            translate: -50% -50%;
+body{
+     font-size: 50px;
+     background-color: black;
+}
 
-        }
-        span{
-            color: red;
-            
-        }
+h1{
+    color: azure;
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+span{
+     color: red; 
+}
