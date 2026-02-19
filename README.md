@@ -1,93 +1,65 @@
-# SpeedReader
+# speedReader
 
-A simple web-based speed reading application that displays words one at a time to improve reading speed and focus.
+this is a stupid recreational coding project i made because i was curious how speed reading apps work.
 
-## Overview
+there was no grand plan, no productivity goal, no startup idea. i just wanted to see if i could make text display one word at a time in the browser and mess around with timing, DOM manipulation, and focus positioning.
 
-SpeedReader is a lightweight JavaScript application designed to help users read text faster by presenting words sequentially at a controlled speed. This reduces eye movement and improves concentration, allowing users to process information more efficiently.
+it exists purely because curiosity exists.
 
-This project is built using pure HTML and JavaScript with no external dependencies.
+## what it does
 
-## Features
+it shows words one at a time.
 
-* Displays text word-by-word
-* Adjustable reading speed (WPM)
-* Minimal and distraction-free interface
-* Fast and lightweight
-* Runs entirely in the browser
+that's it.
 
-## How It Works
+the idea is based on speed reading techniques where instead of moving your eyes across text, the text moves to your eyes. theoretically this reduces eye movement and lets you read faster. whether it actually makes you smarter is debatable.
 
-The application:
+## why i made this
 
-1. Takes input text
-2. Splits it into individual words
-3. Displays one word at a time
-4. Controls display timing using JavaScript timers
-5. Highlights a focus letter to improve recognition speed
+mostly to learn and experiment with:
 
-This approach is inspired by RSVP (Rapid Serial Visual Presentation), a technique used in speed reading tools.
+* javascript timing (`setTimeout`, `setInterval`)
+* DOM manipulation
+* splitting and handling text
+* positioning letters precisely
+* and just building something small for fun
 
-## Project Structure
+also because making useless things is one of the best ways to learn useful things.
+
+## how to run
+
+clone the repo:
 
 ```
-speedReader/
-│
-├── index.html    # Main HTML structure
-├── script.js     # Speed reading logic
-└── README.md     # Project documentation
-```
-
-## Installation
-
-No installation required.
-
-Just clone the repository:
-
-```bash
 git clone https://github.com/mbsurya19122004/speedReader.git
 cd speedReader
 ```
 
-Then open:
+open `index.html` in your browser.
 
-```bash
-index.html
+no install, no dependencies, no nonsense.
+
+## project structure
+
+```
+index.html    main page
+script.js     logic
 ```
 
-in your browser.
+## current state
 
-## Usage
+works. technically.
 
-1. Open the application in your browser
-2. Enter or load text
-3. Start the reader
-4. Words will appear one at a time at the configured speed
+not polished. not optimized. not pretty.
 
-## Technologies Used
+but it does the thing.
 
-* HTML
-* JavaScript
-* DOM manipulation
-* Browser timers (setTimeout / setInterval)
+## future plans
 
-## Future Improvements
+maybe improve it. maybe abandon it. maybe rewrite it in rust for no reason. who knows.
 
-Possible enhancements:
+## conclusion
 
-* Adjustable WPM slider
-* Pause / Resume support
-* Upload text files
-* Progress bar
-* Focus letter alignment optimization
-* Dark mode
+this project serves no real purpose other than satisfying curiosity.
 
-## Why This Exists
-
-Speed reading reduces the bottleneck caused by eye movement. By showing one word at a time, the brain can process text faster.
-
-Traditional reading speed:
-200–300 WPM
-
-Speed reading tools:
-400–800+ WPM
+but curiosity is the engine of everything interesting humans have ever done, so that's good enough.
