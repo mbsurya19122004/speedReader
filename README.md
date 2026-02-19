@@ -61,5 +61,3 @@ maybe improve it. maybe abandon it. maybe rewrite it in rust for no reason. who 
 ## conclusion
 
 this project serves no real purpose other than satisfying curiosity.
-
-but curiosity is the engine of everything interesting humans have ever done, so that's good enough.
