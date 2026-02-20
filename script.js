@@ -1,6 +1,8 @@
 const disp = document.getElementById("w1");
 const inputArea = document.getElementById("para");
 const btn = document.getElementById("btn");
+const delayControl = document.getElementById("speed");
+
 btn.addEventListener("click", startReader);
 
 async function startReader() {
@@ -11,11 +13,13 @@ async function startReader() {
   }
   inputArea.hidden=true
   btn.hidden=true
+  delayControl.hidden = true;
 
   await readWords(text);
 
   inputArea.hidden=false
   btn.hidden=false
+  delayControl.hidden = false;
 
 }
 
@@ -37,12 +41,15 @@ async function readWords(str) {
 
   for (let i of words) {
     disp.innerHTML = parseWord(i);
+    
+    let speed = parseInt(delayControl.value);
+     if (i.endsWith(".") || i.endsWith(",") || i.endsWith("?") || i.endsWith("!")) {
+      speed += 150; 
+    }
 
-    let delay = 200;
-    if (i.endsWith(".") || i.endsWith(",")) delay = 300;
-
-    await sleep(delay);
+    await sleep(speed);
   }
+    disp.innerHTML = `d<span id="focus">o</span>ne`;
 }
 
 function sleep(ms) {
