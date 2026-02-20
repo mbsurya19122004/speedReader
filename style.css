@@ -21,6 +21,7 @@ h1{
     top: 50%;
     left: 50%;
     translate: -50% -50%;
+    margin-top: 120px;
 }
 .controls {
         z-index: 10;
@@ -58,14 +59,27 @@ span{
      font-size: 180%;
     top: 0%;
     left: 50%;
+    margin-top: 100px;
 }
 p{
     font-size: 50%;
     position: absolute;
-    top: 12%;
+    top: 18%;
     left: 50%;
     translate: -50%;
     text-align: center;
     width: 50%;
 }
 
+#speed{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+select{
+        padding: 10px 40px ;
+        margin-bottom: 30px;
+}
+#btn{
+        margin-top: -10px;
+}
