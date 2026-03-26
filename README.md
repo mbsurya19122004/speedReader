@@ -14,17 +14,6 @@ that's it.
 
 the idea is based on speed reading techniques where instead of moving your eyes across text, the text moves to your eyes. theoretically this reduces eye movement and lets you read faster. whether it actually makes you smarter is debatable.
 
-## why i made this
-
-mostly to learn and experiment with:
-
-* javascript timing (`setTimeout`, `setInterval`)
-* DOM manipulation
-* splitting and handling text
-* positioning letters precisely
-* and just building something small for fun
-
-also because making useless things is one of the best ways to learn useful things.
 
 ## how to run
 
