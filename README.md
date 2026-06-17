@@ -45,7 +45,7 @@ but it does the thing.
 
 ## future plans
 
-maybe improve it. maybe abandon it. maybe rewrite it in rust for no reason. who knows.
+maybe improve it. maybe abandon it. who knows.
 
 ## conclusion
 
